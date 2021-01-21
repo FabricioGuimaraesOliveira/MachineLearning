@@ -1,0 +1,57 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.csv
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Notebook checkpoints #
+#######################
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Ignore additional files #
+###########################
+/finding_donors/*.md
+/finding_donors/*.py
+/finding_donors/*.pyc
+/boston_housing/*.md
+/boston_housing/*.py
+/boston_housing/*.pyc
+/customer_segments/*.md
+/customer_segments/*.py
+/customer_segments/*.pyc
+/multidigit_recognition/*.md
+/multidigit_recognition/*.pyc
